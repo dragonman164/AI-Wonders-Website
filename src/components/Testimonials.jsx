@@ -8,7 +8,7 @@ import ClipPath from "../assets/svg/ClipPath";
 const Testimonials = () => {
   return (
     <Section id="testimonials">
-      <div className="container relative z-2">
+      <div className="container relative z-1">
         <Heading
           className="md:max-w-md lg:max-w-2xl font-bold"
           title="What our students have to say?"

@@ -53,11 +53,7 @@ export const navigation = [
     url: "#courses",
   },
   
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+ 
   {
     id: "4",
     title: "New account",
@@ -74,6 +70,11 @@ export const navigation = [
     id: "6",
     title: "Testimonials",
     url: "#testimonials",
+  },
+  {
+    id: "3",
+    title: "Team",
+    url: "#team",
   },
 ];
 
