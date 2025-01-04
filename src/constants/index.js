@@ -38,20 +38,21 @@ import {
 
 export const navigation = [
   {
-    id: "0",
-    title: "Features",
-    url: "#features",
+    id : "0",
+    title : "About Us",
+    url : "#about-us"
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Skillsets",
+    url: "#how-to-use",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Courses",
+    url: "#courses",
   },
+  
   {
     id: "3",
     title: "Roadmap",
@@ -69,6 +70,11 @@ export const navigation = [
     url: "#login",
     onlyMobile: true,
   },
+  {
+    id: "6",
+    title: "Testimonials",
+    url: "#testimonials",
+  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -78,9 +84,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Generative AI (LLM models like GPT,Gemini,etc.)",
+  "Machine Learning and Deep Learning concepts",
+  "Real time projects like Face Recognition, Object Detection, etc.",
 ];
 
 export const brainwaveServicesIcons = [
@@ -128,21 +134,22 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "We are committed to nurturing kids with future ready tech skills. We  teach Web Dev, AI, and Programming Fundamentals to school going kids from class VI to X.";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Team of Distinguished of Engineers",
+    text: "We are a team of distinguished engineers from top tier engineering institutions of our country, striving to nurture high-paying, future-ready technical skills in schoolkids to enlighten their careers.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Online and Offline Modes of Teaching",
+    text : "We run AI and web dev clubs in collaboration with schools who provide the systems and seating. While we provide trained instructors, industry trending curriculum, doubt support, and self paced recorded lectures on weekends in case you miss and class."
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Updated Curriculum",
   },
 ];
 
@@ -208,35 +215,35 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Artificial Intelligence",
+    description: "Learn about latest AI technologies being used at industry level",
+    price: "12,000",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Creating your own Generative AI models and best way to use them.",
+      "Basic concepts of Machine Learning and Deep Learning",
+      "Hands on projects like Face Recognition, Object Detection, etc.",
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Web Development",
+    description: "Design complex websites and web apps using latest technologies",
+    price: "15,000",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Understanding how a website works.",
+      "Designing complex UI designs using HTML, CSS, and JavaScript.",
+      "Prominent backend technologies like Node.js, Spring Boot, etc.",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Programming Languages",
+    description: "Latest programming languages being used in the tech industry",
+    price: "15,000",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Learn fundamentals of coding.",
+      "Get familiarized with the latest programming languages.",
+      "A roadmap to learn new languages and technologies.",
     ],
   },
 ];
@@ -244,54 +251,34 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Student from Web Dev Track",
+    text: [
+      'Hi, Im Aryan, a 7th-grade student, and learning with AI Wonders has been one of the most exciting experiences of my life! I joined the AI track in Year 2, where I learned Exploratory Data Analysis. The concepts were taught in such a fun and clear way that I quickly started analyzing real-world data on electricity usage in my state.',
+      'With the guidance of my mentors at AI Wonders, I created a detailed project that visualized patterns of electricity consumption and suggested ways to reduce wastage. This project not only helped me understand how data can solve real-life problems but also won me a national hackathon!',
+      'AI Wonders has truly unlocked my potential, and Im so grateful for their support and encouragement. I can’t wait to learn more!',
+      
+    ],
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
+    customer : ' Aryan, Grade 7 Student'
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Student from Combined Track",
+    text: [
+      'AI Wonders is absolutely amazing! I joined the Web Development track in Year 1 as a complete beginner and started by learning basics like HTML, CSS, and DOM manipulation with JavaScript. The instructors explained every concept so clearly that coding quickly became my favorite activity',
+      'By Year 2, I was diving deep into advanced JavaScript concepts like promises, API calls, and understanding the asynchronous nature of JavaScript. At first, it was tricky, but the doubt sessions and one-on-one guidance from AI Wonders made everything click. They explained it in a way that was simple and relatable, and I felt confident tackling even the toughest challenges.',
+      'With the knowledge I gained, I built a real-time multiplayer game that became a huge hit in my class. Everyone loved playing it, and it made me realize how powerful coding skills can be! By the end of Year 2, I had become a React expert and could create dynamic, professional-level web apps.',
+      'I can\'t thank AI Wonders enough for helping me discover my passion and giving me the tools to achieve something amazing. Definitely 5 stars from me!'
+    ],
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
+    customer : 'Radha, Grade 8 Student'
   },
-  {
-    id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
-  },
-  {
-    id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-  },
+ 
 ];
 
 export const socials = [

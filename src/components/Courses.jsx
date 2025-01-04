@@ -4,9 +4,9 @@ import Heading from "./Heading";
 import PricingList from "./PricingList";
 import { LeftLine, RightLine } from "./design/Pricing";
 
-const Pricing = () => {
+const Courses = () => {
   return (
-    <Section className="overflow-hidden" id="pricing">
+    <Section className="overflow-hidden" id="courses">
       <div className="container relative z-2">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
@@ -28,8 +28,8 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Get started with the courses at AI Wonders"
+          title="AI Wonder Courses for School Students"
         />
 
         <div className="relative">
@@ -38,17 +38,17 @@ const Pricing = () => {
           <RightLine />
         </div>
 
-        <div className="flex justify-center mt-10">
+        {/* <div className="flex justify-center mt-10">
           <a
             className="text-xs font-code font-bold tracking-wider uppercase border-b"
             href="/pricing"
           >
             See the full details
           </a>
-        </div>
+        </div> */}
       </div>
     </Section>
   );
 };
 
-export default Pricing;
+export default Courses;

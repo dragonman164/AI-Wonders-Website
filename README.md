@@ -423,37 +423,38 @@ import {
 } from "../../public/assets";
 
 export const navigation = [
+  
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Courses",
+    url: "#courses",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
-  },
-  {
-    id: "2",
     title: "How to use",
     url: "#how-to-use",
   },
   {
-    id: "3",
+    id: "2",
     title: "Roadmap",
     url: "#roadmap",
   },
   {
-    id: "4",
+    id: "3",
     title: "New account",
     url: "#signup",
     onlyMobile: true,
   },
   {
-    id: "5",
+    id: "4",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
+  },
+  {
+    id: "5",
+    title: "Features",
+    url: "#features",
   },
 ];
 
@@ -519,7 +520,7 @@ export const collabText =
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
+    title: "About Us",
     text: collabText,
   },
   {
