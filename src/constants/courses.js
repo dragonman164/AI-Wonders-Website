@@ -15,7 +15,8 @@ export const WebDev = [
             "Event handlers: onClick, mouseOver, mouseOut, etc.",
             "EventPropagation",
             "LocalStorage",
-            "Hosting static websites on vercel"
+            "Hosting static websites on vercel",
+            ''
         ],
 
     },
@@ -49,7 +50,8 @@ export const WebDev = [
             "Interfacing with APIs using Async Thunks",
             "Redux Toolkit Query",
             "Typescript",
-            "Styling react apps with TailwindCSS"
+            "Styling react apps with TailwindCSS",
+            ''
         ]
     },
     {
@@ -85,7 +87,8 @@ export const WebDev = [
             "Authentication using jwts, basics of jwts",
             "Hashing Passwords with bcrypt",
             "Secret management",
-            "HTTP vs HTTPs"
+            "HTTP vs HTTPs",
+            ''
             
         ]
 
@@ -168,6 +171,7 @@ export const WebDev = [
   "CI/CD: Secret management (Storing API keys, tokens, and sensitive data in GitHub Secrets)",
   "CI/CD: Accessing secrets in workflows",
   "CI/CD: Notifications and reporting",
+  '',
         ]
     }
 ]

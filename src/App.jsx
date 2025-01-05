@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Courses";
 import Team from "./components/Team";
 import Services from "./components/Services";
+import ContactForm from "./components/ContactForm";
 
 const App = () => {
   return (
@@ -18,8 +19,8 @@ const App = () => {
         <Services />
         <Pricing />
         <Testimonials />
-
         <Team />
+        <ContactForm/>
         <Footer />
       </div>
 

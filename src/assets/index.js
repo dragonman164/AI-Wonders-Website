@@ -51,6 +51,8 @@ import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
+import rudransh from './roadmap/Rudransh.jpg';
+import chirag from './roadmap/Chirag.jpg'
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -74,8 +76,14 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import gmail from './socials/gmail.svg';
+import github from './socials/github-mark.svg';
+import linkedin from './socials/linkedin.svg';
 
 export {
+  gmail,
+  github,
+  linkedin,
   brainwave,
   check,
   check2,
@@ -144,4 +152,6 @@ export {
   instagram,
   telegram,
   twitter,
+  rudransh,
+  chirag
 };

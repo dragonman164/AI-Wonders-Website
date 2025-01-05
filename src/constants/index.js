@@ -28,12 +28,17 @@ import {
   roadmap2,
   roadmap3,
   roadmap4,
+  rudransh,
+  chirag, 
   searchMd,
   slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  gmail,
+  github,
+  linkedin,
 } from "../assets";
 
 export const navigation = [
@@ -76,6 +81,11 @@ export const navigation = [
     title: "Team",
     url: "#team",
   },
+  {
+    id : "7",
+    title : "Contact Us",
+    url : "#contact-us"
+  }
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
@@ -101,37 +111,78 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
+    title: "Rudransh Joshi",
+    text: `Experienced Founder with expertise in computer networking, MERN Stack, AWS, GoLang, and Cloud Technologies. Skilled in strategizing, ideating, and desktop software development using ElectronJS. Holds a Bachelor's in Computer Science and Business Systems from Thapar University.`,
     date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
+    status: "Innovator & Technologist",
+    imageUrl: rudransh,
     colorful: true,
+    socials :  [
+      {
+        id: "0",
+        title: "Gmail",
+        iconUrl: gmail,
+        url: "mailto:rudranshj95@gmail.com",
+      },
+      {
+        id: "1",
+        title: "GitHub",
+        iconUrl: github,
+        url: "https://github.com/rudransh8274",
+      },
+      {
+        id: "2",
+        title: "LinkedIn",
+        iconUrl: linkedin,
+        url: "https://www.linkedin.com/in/rudransh-joshi-3579281a4/",
+      }
+    ]
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
+    title: "Chirag Sawarn",
+    text: `Proficient in building end to end Web Apps using Express, React, Angular, SQL, MongoDB, and GraphQL.
+Passionate about teaching, problem solving, and living healthy.`,
     date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
+    status: "Web Builder & Mentor",
+    imageUrl: chirag,
+    socials :  [
+      {
+        id: "0",
+        title: "Gmail",
+        iconUrl: gmail,
+        url: "mailto:cswarn@gmail.com",
+      },
+      {
+        id: "1",
+        title: "GitHub",
+        iconUrl: github,
+        url: "https://github.com/chiragsawarn",
+      },
+      {
+        id: "2",
+        title: "LinkedIn",
+        iconUrl: linkedin,
+        url: "https://www.linkedin.com/in/chiragsawarn/",
+      }
+    ]
   },
-  {
-    id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
-  },
+  // {
+  //   id: "2",
+  //   title: "Chatbot customization",
+  //   text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
+  //   date: "May 2023",
+  //   status: "done",
+  //   imageUrl: roadmap3,
+  // },
+  // {
+  //   id: "3",
+  //   title: "Integration with APIs",
+  //   text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
+  //   date: "May 2023",
+  //   status: "progress",
+  //   imageUrl: roadmap4,
+  // },
 ];
 
 export const collabText =
@@ -285,32 +336,20 @@ export const benefits = [
 export const socials = [
   {
     id: "0",
-    title: "Discord",
-    iconUrl: discordBlack,
+    title: "Gmail",
+    iconUrl: gmail,
     url: "#",
   },
   {
     id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
+    title: "GitHub",
+    iconUrl: github,
     url: "#",
   },
   {
     id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
+    title: "LinkedIn",
+    iconUrl: linkedin,
     url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
-  },
+  }
 ];
