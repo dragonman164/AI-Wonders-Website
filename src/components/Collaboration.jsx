@@ -10,7 +10,7 @@ const Collaboration = () => {
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 font-bold mb-4 md:mb-8">
-            A platform to outshine your kid in the digital era
+            We prepare your kids for the digital era
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">

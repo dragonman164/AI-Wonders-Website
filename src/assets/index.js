@@ -27,14 +27,14 @@ import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
-import discord from "./collaboration/discord.png";
-import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
-import notion from "./collaboration/notion.png";
-import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import html from "./collaboration/html.svg";
+import javascript from "./collaboration/javascript.svg";
+import gcp from "./collaboration/gcp.svg";
+import css from "./collaboration/css.svg";
+import chatgpt from "./collaboration/chatgpt.svg";
+import python from "./collaboration/python.svg";
+import docker from "./collaboration/docker.svg";
+import react from "./collaboration/react.svg";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -51,8 +51,9 @@ import roadmap2 from "./roadmap/image-2.png";
 import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
-import rudransh from './roadmap/Rudransh.jpg';
-import chirag from './roadmap/Chirag.jpg'
+import rudransh from './roadmap/Rudransh.jpeg';
+import chirag from './roadmap/Chirag.jpeg';
+import sanidhiya from './roadmap/Sanidhiya.jpeg';
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -111,14 +112,14 @@ export {
   heroBackground,
   curve1,
   curve2,
-  discord,
-  figma,
-  framer,
-  notion,
-  photoshop,
-  protopie,
-  raindrop,
-  slack,
+  html,
+  javascript,
+  gcp,
+  css,
+  chatgpt,
+  python,
+  docker,
+  react,
   service1,
   service2,
   service3,
@@ -153,5 +154,6 @@ export {
   telegram,
   twitter,
   rudransh,
-  chirag
+  chirag,
+  sanidhiya
 };
