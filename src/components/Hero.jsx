@@ -37,10 +37,10 @@ const Hero = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
 
-          Join our team of top-tier engineers dedicated to empowering schoolkids with future-ready tech skills for thriving careers.          </p>
-          {/* <Button href="/pricing" white>
+          We are top-tier engineers dedicated to empowering schoolkids with future-ready tech skills for thriving careers.          </p>
+          <Button href="/pricing" white>
             Get started
-          </Button> */}
+          </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
