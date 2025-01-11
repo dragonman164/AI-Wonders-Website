@@ -34,18 +34,18 @@ const Carousel = ({ content }) => {
   </div>
 
   <Button
-    onClick={prevSlide}
-    className="max-w-1 mt-10 mr-[40.75rem] absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white p-2"
-  >
-    {'<'}
-  </Button>
+  onClick={prevSlide}
+  className="max-w-1 mt-10 mr-20 absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-800 text-white p-2"
+>
+  {'<'}
+</Button>
 
-  <Button
-    onClick={nextSlide}
-    className="max-w-1 mt-10 absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white p-2"
-  >
-    {'>'}
-  </Button>
+<Button
+  onClick={nextSlide}
+  className="max-w-1 lg:ml-[30.75rem] mt-10 absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-800 text-white p-2"
+>
+  {'>'}
+</Button>
 </div>
 
   );

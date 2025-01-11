@@ -323,11 +323,11 @@ export const benefits = [
     id: "0",
     title: "Student from Web Dev Track",
     text: [
-      'Hi, Im Aryan, a 7th-grade student, and learning with AI Wonders has been one of the most exciting experiences of my life! I joined the AI track in Year 2, where I learned Exploratory Data Analysis. The concepts were taught in such a fun and clear way that I quickly started analyzing real-world data on electricity usage in my state.',
-      'With the guidance of my mentors at AI Wonders, I created a detailed project that visualized patterns of electricity consumption and suggested ways to reduce wastage. This project not only helped me understand how data can solve real-life problems but also won me a national hackathon!',
-      'AI Wonders has truly unlocked my potential, and Im so grateful for their support and encouragement. I can’t wait to learn more!',
-      
+      'As a 7th-grader, I joined the AI track at AI Wonders in Year 2. I learned Exploratory Data Analysis and quickly started analyzing real-world data on electricity usage.',
+      'With mentor guidance, I created a project visualizing consumption patterns and suggesting waste reduction. It won a national hackathon!',
+      'AI Wonders has unlocked my potential. I\'m grateful for their support and excited to learn more!',
     ],
+
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -337,11 +337,10 @@ export const benefits = [
     id: "1",
     title: "Student from Combined Track",
     text: [
-      'AI Wonders is absolutely amazing! I joined the Web Development track in Year 1 as a complete beginner and started by learning basics like HTML, CSS, and DOM manipulation with JavaScript. The instructors explained every concept so clearly that coding quickly became my favorite activity',
-      'By Year 2, I was diving deep into advanced JavaScript concepts like promises, API calls, and understanding the asynchronous nature of JavaScript. At first, it was tricky, but the doubt sessions and one-on-one guidance from AI Wonders made everything click. They explained it in a way that was simple and relatable, and I felt confident tackling even the toughest challenges.',
-      'With the knowledge I gained, I built a real-time multiplayer game that became a huge hit in my class. Everyone loved playing it, and it made me realize how powerful coding skills can be! By the end of Year 2, I had become a React expert and could create dynamic, professional-level web apps.',
-      'I can\'t thank AI Wonders enough for helping me discover my passion and giving me the tools to achieve something amazing. Definitely 5 stars from me!'
-    ],
+      'As a 7th-grader, learning at AI Wonders has been amazing! In Year 2, I delved into Exploratory Data Analysis on the AI track. The engaging lessons inspired me to analyze electricity usage in my state.',
+      'With mentor guidance, I built a project visualizing consumption patterns and suggesting waste reduction. This project won a national hackathon!',
+      'AI Wonders has unlocked my potential. I\'m grateful for their support and can\'t wait to learn more!',
+      ],
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

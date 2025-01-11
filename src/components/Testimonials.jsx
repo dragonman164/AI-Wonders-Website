@@ -32,12 +32,13 @@ const Testimonials = () => {
                 <span className="h3">&#8221;</span>
                 <div className="flex items-center mt-auto">
                   <img
+                  className="mr-5"
                     src={item.iconUrl}
-                    width={48}
-                    height={48}
+                    width={40}
+                    height={40}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code font-bold text-n-1 uppercase tracking-wider">
+                  <p className="ml-auto text-small font-code font-bold text-n-1 uppercase tracking-wider">
                     - {item.customer}
                   </p>
                   {/* <Arrow /> */}

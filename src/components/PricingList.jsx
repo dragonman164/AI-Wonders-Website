@@ -3,12 +3,13 @@ import { pricing } from "../constants";
 import Button from "./Button";
 import { useState } from "react";
 import CourseModal from "./design/CourseModal";
+import Carousel from "./Carousel";
 
 const PricingList = () => {
 
   const [showCourseModal, setShowCourseModal] = useState(false);
-  const [courseTitle, setCourseTitle] = useState(null);
-  const [courseContent, setCourseContent] = useState(null);
+  const [modalContent, setModalContent] = useState(null);
+
   return (
     <div className="flex gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => {
@@ -39,8 +40,15 @@ const PricingList = () => {
           <Button
             className="w-full mb-6"
             onClick={() => {
-              setCourseTitle(item.title);
-              setCourseContent(item.content);
+            
+              setModalContent((<>
+                <h3 className="h3 font-bold">{item.title}</h3>
+
+                <Carousel content={item.content || []} />
+                </>
+              )
+              
+              )
               setShowCourseModal(true);
             }}            
             white={!!item.price}
@@ -50,7 +58,7 @@ const PricingList = () => {
           </Button>
 
           {showCourseModal && (
-            <CourseModal courseName={courseTitle} courseContent={courseContent} close={setShowCourseModal}/>
+            <CourseModal modalContent={modalContent} close={setShowCourseModal}/>
           )}
 
           <ul>
