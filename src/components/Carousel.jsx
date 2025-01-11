@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from './Button';
 import Arrow from '../assets/svg/Arrow';
+import Table from './Table';
 
 const Carousel = ({ content }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -19,29 +20,14 @@ const Carousel = ({ content }) => {
     {content.map((elem, index) => (
       <div
         key={index}
-        className={`absolute inset-0 transition-transform transform ${
+        className={`absolute inset-0 transition-transform transform duration-200 ${
           index === currentIndex ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <h5 className="h5 font-bold">Year {elem.year}</h5>
-        <div className="p-4 mt-1 mb-5 overflow-y-scroll h-96"> {/* Increased scrollable area height */}
-          <h2 className="text-lg font-bold mb-4 mt-2">Topics to be covered:</h2>
-          <table className="min-w-full table-auto border-collapse border border-gray-300"> {/* Added min height */}
-            <thead>
-              <tr className="bg-n-6">
-                <th className="border border-gray-300 px-4 py-2 text-left font-semibold">#</th>
-                <th className="border border-gray-300 px-4 py-2 text-left font-semibold">Topic</th>
-              </tr>
-            </thead>
-            <tbody>
-              {elem.topics.map((topic, index) => (
-                <tr key={index} className="even:bg-n-6">
-                  <td className="border border-gray-300 px-4 py-2">{index + 1}.</td>
-                  <td className="border border-gray-300 px-4 py-2">{topic}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+        <div className="p-4 mt-1 mb-5 h-96"> {/* Increased scrollable area height */}
+          <h2 className="text-lg font-bold mb-4 mt-2">Topics to be covered :</h2>
+         <Table topics={elem.topics}/>
         </div>
       </div>
     ))}

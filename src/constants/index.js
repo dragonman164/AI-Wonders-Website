@@ -42,6 +42,7 @@ import {
   linkedin,
 } from "../assets";
 
+import {WebDev,AICourse,coding_curriculum} from './courses';
 export const navigation = [
   {
     id : "0",
@@ -170,7 +171,7 @@ Passionate about teaching, problem solving, and living healthy.`,
   },
   {
     id: "2",
-    title: "Sanidhiya Godiyal",
+    title: "Sanidhiya",
     text: `Proficient in designing AI-driven solutions using LLMs, RAG architectures, and intelligent agents to solve real-world business problems. Experienced with integrating frameworks like LangChain, OpenAI, and vector databases such as Pinecone for advanced applications. Passionate about innovation, problem-solving, and harnessing AI to deliver transformative results.`,
     date: "May 2023",
     status: "AI Engineer & Mentor",
@@ -289,6 +290,7 @@ export const pricing = [
       "Basic concepts of Machine Learning and Deep Learning",
       "Hands on projects like Face Recognition, Object Detection, etc.",
     ],
+    content : AICourse
   },
   {
     id: "1",
@@ -300,6 +302,7 @@ export const pricing = [
       "Designing complex UI designs using HTML, CSS, and JavaScript.",
       "Prominent backend technologies like Node.js, Spring Boot, etc.",
     ],
+    content : WebDev
   },
   {
     id: "2",
@@ -311,6 +314,7 @@ export const pricing = [
       "Get familiarized with the latest programming languages.",
       "A roadmap to learn new languages and technologies.",
     ],
+    content : coding_curriculum  
   },
 ];
 
