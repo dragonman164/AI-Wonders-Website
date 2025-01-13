@@ -2,6 +2,7 @@ import Section from "./Section";
 import { socials } from "../constants";
 import CourseModal from "./design/CourseModal";
 import { useState } from "react";
+import { brainwave } from "../assets";
 
 const footerListItems = [
   {
@@ -208,11 +209,50 @@ const Footer = () => {
   return (
     <Section id="#footer" crosses className="!px-0 !py-10">
       {showModal && <CourseModal modalContent={modalContent} close={setShowModal}/>}
-      <div className="container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
-        <p className="caption text-n-4 lg:block">
+      <div className="container flex grid-col-3 sm:justify-between justify-center items-center gap-10 max-sm:flex-col">
+        <div className="grid-row-2">
+        <img src={brainwave} alt="Brainwave" className="mb-8 -mt-12 -ml-6"/>
+        <p className="caption text-n-4 lg:block ">
           © {new Date().getFullYear()}. All rights reserved.
         </p>
-
+        </div>
+      <div>
+     <div>
+      <div className="grid-row-3 ml-4 ">
+        <div>
+          <h4 className="h5 font-bold md:-mt-10">Contact Us </h4>
+          {/* <h4 className="h5 font-bold md:-mt-10 z-5" style={{position:'absolute', top : 95, left : 160,
+          padding : '15px',
+            backgroundColor:'rgb(14,12,21)'
+          }}>AI Wonders </h4> */}
+        </div>
+        <div>
+          <h4 className="h4 font-bold -mt-2">
+          <i className="fa fa-phone h6 font-thin " style={{fontSize:'20px'}}> &nbsp; (+91) 1234567890</i>
+          </h4>
+        </div>
+    
+        <div>
+          <h4 className="h4 font-bold -mt-3">
+          <i className="fa fa-envelope h6 font-thin " style={{fontSize:'20px'}}> &nbsp; admin@aiwonders.in</i>
+          </h4>
+        </div>
+     {/* <ul className="flex gap-5 flex-wrap md:mb-20">
+    
+          {socials.map((item) => (
+            <a
+              key={item.id}
+              href={item.url}
+              target="_blank"
+              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
+            >
+              <img src={item.iconUrl} width={16} height={16} alt={item.title} />
+            </a>
+          ))}
+        </ul> */}
+        </div>
+     </div>
+      </div>
         <div className="h-48">
         <ul className="gap-5 mb-10 flex-wrap">
          {
@@ -227,19 +267,9 @@ const Footer = () => {
           ))
          }
         </ul>
-        <ul className="flex gap-5 flex-wrap">
-          {socials.map((item) => (
-            <a
-              key={item.id}
-              href={item.url}
-              target="_blank"
-              className="flex items-center justify-center w-10 h-10 bg-n-7 rounded-full transition-colors hover:bg-n-6"
-            >
-              <img src={item.iconUrl} width={16} height={16} alt={item.title} />
-            </a>
-          ))}
-        </ul>
+      
         </div>
+        
       </div>
     </Section>
   );
